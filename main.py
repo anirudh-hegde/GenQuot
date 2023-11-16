@@ -16,6 +16,7 @@ def gen_quote():
     quote = data['content']
     author = data['author']
 
+    # displays with help of html file
     return render_template('index.html', quote=quote, author=author)
 
 
